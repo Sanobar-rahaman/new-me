@@ -1,0 +1,22 @@
+.main-content {
+    display: flex;
+    align-items: center;
+}
+
+.my-plans {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFF;
+    margin-top: 40px;
+}
+
+.wacth {
+    background-image: url("images/watch.png");
+    width: 900px;
+    height: 100px;
+}
+.wacth-bag{
+    display: flex;
+    align-items: center;
+}
