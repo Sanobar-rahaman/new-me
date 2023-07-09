@@ -1,6 +1,17 @@
+.banner{
+    height: 800px;
+    background-image: url("images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.banner-content{
+    text-align: right;
+    padding-top: 100px;
+}
 .main-content {
     display: flex;
     align-items: center;
+    margin-top: -340px;
 }
 
 .my-plans {
@@ -12,11 +23,35 @@
 }
 
 .wacth {
-    background-image: url("images/watch.png");
+    background-image:url("images/watch.png");
     width: 900px;
     height: 100px;
 }
 .wacth-bag{
     display: flex;
     align-items: center;
+    width: 1000px;
+}
+.fotter-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    padding-bottom: 25px;
+
+}
+.footer-imput{
+    width: 50%;
+}
+.btn{
+    padding: 10px 20px;
+    color: red;
+}
+.socal-links{
+    display: flex;
+}
+.link{
+    width: 50px;
+    gap: 10px;
 }
