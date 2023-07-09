@@ -11,7 +11,7 @@
 .main-content {
     display: flex;
     align-items: center;
-    margin-top: -340px;
+    /* margin-top: -340px; */
 }
 
 .my-plans {
